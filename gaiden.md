@@ -17,6 +17,15 @@ title: Gaiden
     border-bottom: 1px solid #eee;
   }
 
+  .section-subheader {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #bbb;
+    margin: 1.5rem 0 0.75rem;
+  }
+
   /* Appearance cards — horizontal feel */
   .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; }
   .card {
@@ -57,13 +66,16 @@ title: Gaiden
 
   .qt-japanese { background: #fff8f0; border: 1px solid #f5d9b8; }
   .qt-books    { background: #f3f7ff; border: 1px solid #c8d8f8; }
+
 </style>
 
 # Gaiden
 
-<p class="gaiden-intro">Side quests, cameos, and stuff that doesn't fit anywhere else.</p>
+<p class="gaiden-intro">Gotta squeeze this stuff in somewhere...</p>
 
 <div class="section-header">Appearances</div>
+<div class="section-subheader">I'm a popular guy; here are some other places I show up.</div>
+
 
 <div class="card-grid">
 
@@ -82,13 +94,13 @@ title: Gaiden
   <a class="quest-tile qt-japanese" href="/gaiden/japanese">
     <div class="qt-icon">🈶</div>
     <div class="qt-title">Learning Japanese</div>
-    <div class="qt-desc">Notes, resources, and ramblings from my journey into Japanese.</div>
+    <div class="qt-desc">notes, resources, ramblings.</div>
   </a>
 
   <a class="quest-tile qt-books" href="/gaiden/books">
     <div class="qt-icon">📖</div>
     <div class="qt-title">Books</div>
-    <div class="qt-desc">Thoughts on books I've read — not reviews, just reactions.</div>
+    <div class="qt-desc">reccs and reviews</div>
   </a>
 
 </div>
