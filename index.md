@@ -6,9 +6,7 @@ title: About
 
 # Abhinav Angirekula
 
-Cool Guy
-
-Paragraph time
+Now, shall we begin the experiment?
 
 # Curriculum Vitae
 

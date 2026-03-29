@@ -4,7 +4,20 @@ title: Gaiden
 ---
 
 <style>
-  .gaiden-intro { color: #888; font-style: italic; margin-bottom: 2rem; }
+  .gaiden-intro { color: #888; font-style: italic; margin-bottom: 2.5rem; }
+
+  .section-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin: 3rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  /* Appearance cards — horizontal feel */
   .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; }
   .card {
     border: 1px solid #e0e0e0;
@@ -26,11 +39,31 @@ title: Gaiden
   }
   .card-title { font-size: 1rem; font-weight: 600; margin-bottom: 0.4rem; }
   .card-desc { font-size: 0.875rem; color: #555; line-height: 1.5; }
+
+  /* Side quest section rows */
+  .quest-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+  .quest-tile {
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: opacity 0.15s;
+  }
+  .quest-tile:hover { opacity: 0.8; }
+  .quest-tile .qt-icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+  .quest-tile .qt-title { font-weight: 600; margin-bottom: 0.3rem; }
+  .quest-tile .qt-desc { font-size: 0.82rem; color: #555; line-height: 1.45; }
+
+  .qt-japanese { background: #fff8f0; border: 1px solid #f5d9b8; }
+  .qt-books    { background: #f3f7ff; border: 1px solid #c8d8f8; }
 </style>
 
 # Gaiden
 
-<p class="gaiden-intro">I'm a popular guy; here are some other places I show up.</p>
+<p class="gaiden-intro">Side quests, cameos, and stuff that doesn't fit anywhere else.</p>
+
+<div class="section-header">Appearances</div>
 
 <div class="card-grid">
 
@@ -38,6 +71,24 @@ title: Gaiden
     <div class="card-tag">NCSA @ Illinois &middot; 2025</div>
     <div class="card-title">SPIN Year-End Recognition</div>
     <div class="card-desc">The National Center for Supercomputing Applications wraps up an awesome year of the SPIN program and shouts out standout interns and mentors.</div>
+  </a>
+
+</div>
+
+<div class="section-header">Side Quests</div>
+
+<div class="quest-grid">
+
+  <a class="quest-tile qt-japanese" href="/gaiden/japanese">
+    <div class="qt-icon">🈶</div>
+    <div class="qt-title">Learning Japanese</div>
+    <div class="qt-desc">Notes, resources, and ramblings from my journey into Japanese.</div>
+  </a>
+
+  <a class="quest-tile qt-books" href="/gaiden/books">
+    <div class="qt-icon">📖</div>
+    <div class="qt-title">Books</div>
+    <div class="qt-desc">Thoughts on books I've read — not reviews, just reactions.</div>
   </a>
 
 </div>
