@@ -6,8 +6,6 @@ title: About
 
 # Abhinav Angirekula
 
-Now, shall we begin the experiment?
-
 # Curriculum Vitae
 
 <a href="https://aabhi256.github.io/Awesome-PhD-CV/research-cv/cv.pdf" download="cv.pdf">
