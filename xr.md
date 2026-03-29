@@ -3,13 +3,57 @@ layout: default
 title: Game Dev/XR
 ---
 
-# Game Development
+<style>
+  .section-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin: 2.5rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #eee;
+  }
+  .writeup-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; }
+  .writeup-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: box-shadow 0.15s, border-color 0.15s;
+  }
+  .writeup-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.10); border-color: #aaa; }
+  .writeup-card .wc-title { font-weight: 600; margin-bottom: 0.4rem; }
+  .writeup-card .wc-desc { font-size: 0.875rem; color: #555; line-height: 1.5; }
+</style>
 
-Insert my personal philosophy about learning game dev here
+# Game Dev/XR
 
-Insert my personal philosophy about game james/hackathons here.
+<div class="section-header">Game Development</div>
 
+<div class="writeup-grid">
 
-# Extended, Mixed, Virtual, and Augmented Reality
+  <a class="writeup-card" href="/xr/game-dev-philosophy">
+    <div class="wc-title">On Learning Game Dev</div>
+    <div class="wc-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  </a>
 
-Or, the reason why I need to switch from glasses to contact lenses.
+  <a class="writeup-card" href="/xr/game-jams">
+    <div class="wc-title">Game Jams & Hackathons</div>
+    <div class="wc-desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+  </a>
+
+</div>
+
+<div class="section-header">Extended, Mixed, Virtual & Augmented Reality</div>
+
+<div class="writeup-grid">
+
+  <a class="writeup-card" href="/xr/xr-intro">
+    <div class="wc-title">Why XR</div>
+    <div class="wc-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint.</div>
+  </a>
+
+</div>
