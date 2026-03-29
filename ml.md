@@ -14,6 +14,14 @@ title: Machine Learning
     padding-bottom: 0.4rem;
     border-bottom: 1px solid #eee;
   }
+  .section-subheader {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #bbb;
+    margin: 1.5rem 0 0.75rem;
+  }
   .writeup-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; }
   .writeup-card {
     border: 1px solid #e0e0e0;
@@ -32,6 +40,7 @@ title: Machine Learning
 # Machine Learning
 
 <div class="section-header">Attention</div>
+<div class="section-subheader">Is it REALLY all you need?</div>
 
 <div class="writeup-grid">
 
