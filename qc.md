@@ -32,7 +32,7 @@ title: Quantum Computing
 # Quantum Computing
 
 <div class="section-header">Quantum Error Correction</div>
-<img src="/assets/qecc-banner.png" alt="Quantum Error Correction" style="width:50%; border-radius:6px; margin-bottom:1rem;">
+<!-- <img src="/assets/qecc-banner.png" alt="Quantum Error Correction" style="width:50%; border-radius:6px; margin-bottom:1rem;"> -->
 
 <div class="writeup-grid">
 
