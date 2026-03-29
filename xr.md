@@ -14,6 +14,14 @@ title: Game Dev/XR
     padding-bottom: 0.4rem;
     border-bottom: 1px solid #eee;
   }
+  .section-subheader {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #bbb;
+    margin: 1.5rem 0 0.75rem;
+  }
   .writeup-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; }
   .writeup-card {
     border: 1px solid #e0e0e0;
@@ -40,14 +48,10 @@ title: Game Dev/XR
     <div class="wc-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
   </a>
 
-  <a class="writeup-card" href="/xr/game-jams">
-    <div class="wc-title">Game Jams & Hackathons</div>
-    <div class="wc-desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-  </a>
-
 </div>
 
 <div class="section-header">Extended, Mixed, Virtual & Augmented Reality</div>
+<div class="section-subheader">Or, the reason why I ought to switch from glasses to contact lenses</div>
 
 <div class="writeup-grid">
 
