@@ -7,15 +7,13 @@ title: About
 <style>
   .logo-crop {
     overflow: hidden;
-    height: 60px;
-    display: flex;
-    align-items: center;
+    height: 80px;
     margin-bottom: 0.5rem;
   }
   .logo-crop img {
-    width: 340px;
-    margin-top: -10px;
-    flex-shrink: 0;
+    width: 700px;
+    margin-top: -310px;
+    margin-left: -75px;
   }
 </style>
 
