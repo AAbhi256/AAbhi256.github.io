@@ -66,6 +66,21 @@ title: Gaiden
 
   .qt-japanese { background: #fff8f0; border: 1px solid #f5d9b8; }
   .qt-books    { background: #f3f7ff; border: 1px solid #c8d8f8; }
+  .qt-misc     { background: #f6f6f6; border: 1px solid #ddd; }
+
+  .misc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+  .misc-tile {
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: opacity 0.15s;
+  }
+  .misc-tile:hover { opacity: 0.8; }
+  .misc-tile .mt-icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+  .misc-tile .mt-title { font-weight: 600; margin-bottom: 0.3rem; }
+  .misc-tile .mt-desc { font-size: 0.82rem; color: #555; line-height: 1.45; }
 
 </style>
 
@@ -101,6 +116,18 @@ title: Gaiden
     <div class="qt-icon">📖</div>
     <div class="qt-title">Books</div>
     <div class="qt-desc">reccs and reviews</div>
+  </a>
+
+</div>
+
+<div class="section-header">Misc</div>
+
+<div class="misc-grid">
+
+  <a class="misc-tile qt-misc" href="/gaiden/latex-macros">
+    <div class="mt-icon">∑</div>
+    <div class="mt-title">LaTeX Macros</div>
+    <div class="mt-desc">my personal macro setup</div>
   </a>
 
 </div>

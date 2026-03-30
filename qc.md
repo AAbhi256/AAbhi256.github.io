@@ -40,6 +40,17 @@ title: Quantum Computing
   .resource-list li a:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.08); border-color: #aaa; }
   .resource-list li a .res-icon { font-size: 0.8rem; color: #aaa; flex-shrink: 0; }
   .resource-list li a .res-label { flex: 1; }
+  .link-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+  .link-list li a {
+    display: flex; align-items: center; gap: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid #e0e0e0; border-radius: 6px;
+    text-decoration: none; color: inherit; font-size: 0.9rem;
+    transition: box-shadow 0.15s, border-color 0.15s;
+  }
+  .link-list li a:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.08); border-color: #aaa; }
+  .link-list li a .ll-label { flex: 1; }
+  .link-list li a .ll-url { font-size: 0.75rem; color: #aaa; }
 </style>
 
 # Quantum Computing
@@ -92,3 +103,14 @@ title: Quantum Computing
     </li>
   </ul>
 </div>
+
+<div class="section-header">Resources</div>
+
+<ul class="link-list">
+  <li>
+    <a href="https://people.eecs.berkeley.edu/~jswright/quantumcodingtheory24/" target="_blank" rel="noopener">
+      <span class="ll-label">Quantum Coding Theory — John Wright (UC Berkeley, 2024)</span>
+      <span class="ll-url">people.eecs.berkeley.edu</span>
+    </a>
+  </li>
+</ul>
