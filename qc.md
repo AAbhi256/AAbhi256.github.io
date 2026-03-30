@@ -56,6 +56,17 @@ title: Quantum Computing
 
 </div>
 
+<div class="section-header">TCS</div>
+
+<div class="writeup-grid">
+
+  <a class="writeup-card" href="/qc/linear-programming">
+    <div class="wc-title">Linear Programming</div>
+    <div class="wc-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  </a>
+
+</div>
+
 <div class="section-header">Class Notes &amp; Presentations</div>
 
 <div class="course-block">
@@ -65,6 +76,18 @@ title: Quantum Computing
       <a href="https://felixleditzky.info/teaching/FT25/characters.pdf" target="_blank" rel="noopener">
         <span class="res-icon">PDF</span>
         <span class="res-label">Characters of Finite Groups</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="course-block">
+  <div class="course-title">CS 579</div>
+  <ul class="resource-list">
+    <li>
+      <a href="https://granha.github.io/cs579_fall25/Lecture_07.pdf" target="_blank" rel="noopener">
+        <span class="res-icon">PDF</span>
+        <span class="res-label">From Graph Isomorphism to Interactive Proofs and the PCP Theorem: Randomness, Verification, and Hardness of Approximation</span>
       </a>
     </li>
   </ul>
