@@ -78,7 +78,7 @@ title: Quantum Computing
 
 </div>
 
-<div class="section-header">Class Notes &amp; Presentations</div>
+<div class="section-header">My Class Notes &amp; Presentations</div>
 
 <div class="course-block">
   <div class="course-title">Math 595</div>
@@ -104,7 +104,7 @@ title: Quantum Computing
     <li>
       <a href="/assets/pdfs/List_Recovery.pdf" target="_blank" rel="noopener">
         <span class="res-icon">PDF</span>
-        <span class="res-label">List Recovery</span>
+        <span class="res-label">List Recovery, Entropy Inequalities, and Combinatorial Designs</span>
       </a>
     </li>
   </ul>
