@@ -101,6 +101,12 @@ title: Quantum Computing
         <span class="res-label">From Graph Isomorphism to Interactive Proofs and the PCP Theorem: Randomness, Verification, and Hardness of Approximation</span>
       </a>
     </li>
+    <li>
+      <a href="/assets/pdfs/List_Recovery.pdf" target="_blank" rel="noopener">
+        <span class="res-icon">PDF</span>
+        <span class="res-label">List Recovery</span>
+      </a>
+    </li>
   </ul>
 </div>
 
