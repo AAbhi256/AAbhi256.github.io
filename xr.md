@@ -133,13 +133,13 @@ title: Game Dev/XR
   <div class="showcase-item">
     <div class="showcase-meta">
       <div class="showcase-title">Devices &amp; Dragons</div>
+      <div class="showcase-icon">
+        <div class="si-inner"><img src="/assets/d&d.png" alt="Devices &amp; Dragons"></div>
+      </div>
       <div class="showcase-links">
         <a class="showcase-link" href="https://trickster-forge.itch.io/devices-and-dragons" target="_blank" rel="noopener">itch.io</a>
         <a class="showcase-link" href="https://github.com/Lophane/GMTK-Built-to-Scale" target="_blank" rel="noopener">GitHub</a>
       </div>
-    </div>
-    <div class="showcase-icon">
-      <div class="si-inner"><img src="/assets/d&d.png" alt="Devices &amp; Dragons"></div>
     </div>
   </div>
 
