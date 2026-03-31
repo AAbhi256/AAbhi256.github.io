@@ -12,9 +12,9 @@ title: About
     max-width: 100%;
   }
   .logo-crop img {
-    width: min(700px, 190vw);
-    margin-top: min(-310px, -44vw);
-    margin-left: min(-75px, -10vw);
+    width: 700px;
+    margin-top: -310px;
+    margin-left: -75px;
   }
   .cv-embed {
     width: 100%;
