@@ -7,7 +7,7 @@ title: About
 <style>
   .logo-crop {
     overflow: hidden;
-    height: 100px;
+    height: 108px;
     margin-bottom: 0.5rem;
     max-width: 100%;
   }
