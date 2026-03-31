@@ -26,7 +26,7 @@ title: About
 </style>
 
 <div class="logo-crop">
-  <img src="/assets/logo.png" alt="Abhinav Angirekula">
+  <img src="/assets/logo2.png" alt="Abhinav Angirekula">
 </div>
 
 # Curriculum Vitae
