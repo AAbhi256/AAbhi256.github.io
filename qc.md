@@ -81,19 +81,19 @@ title: Quantum Computing
 <div class="section-header">My Class Notes &amp; Presentations</div>
 
 <div class="course-block">
-  <div class="course-title">Math 595</div>
+  <div class="course-title">Math 595: Representation-Theoretic Methods in Quantum Information Theory (Fall 2025)</div>
   <ul class="resource-list">
     <li>
       <a href="https://felixleditzky.info/teaching/FT25/characters.pdf" target="_blank" rel="noopener">
         <span class="res-icon">PDF</span>
-        <span class="res-label">Characters of Finite Groups</span>
+        <span class="res-label">Character Theory, Schur Polynomials, and Symmetric Functions</span>
       </a>
     </li>
   </ul>
 </div>
 
 <div class="course-block">
-  <div class="course-title">CS 579</div>
+  <div class="course-title">CS 579: Computational Complexity (Fall 2025)</div>
   <ul class="resource-list">
     <li>
       <a href="https://granha.github.io/cs579_fall25/Lecture_07.pdf" target="_blank" rel="noopener">
