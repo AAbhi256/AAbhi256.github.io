@@ -54,8 +54,8 @@ title: Game Dev/XR
     border: none;
   }
   .showcase-icon {
-    width: 100%;
-    padding-bottom: 56.25%;
+    width: 160px;
+    height: 160px;
     position: relative;
     border-radius: 8px;
     border: 1px solid #e0e0e0;
@@ -64,6 +64,8 @@ title: Game Dev/XR
   .showcase-icon .si-inner {
     position: absolute;
     inset: 0;
+    border-radius: 8px;
+    overflow: hidden;
   }
   .showcase-icon .si-inner img {
     width: 100%;
@@ -129,15 +131,15 @@ title: Game Dev/XR
 
 
   <div class="showcase-item">
-    <div class="showcase-icon">
-      <div class="si-inner"><img src="/assets/d&d.png" alt="Devices &amp; Dragons"></div>
-    </div>
     <div class="showcase-meta">
       <div class="showcase-title">Devices &amp; Dragons</div>
       <div class="showcase-links">
         <a class="showcase-link" href="https://trickster-forge.itch.io/devices-and-dragons" target="_blank" rel="noopener">itch.io</a>
-        <a class="showcase-link" href="#" target="_blank" rel="noopener">GitHub</a>
+        <a class="showcase-link" href="https://github.com/Lophane/GMTK-Built-to-Scale" target="_blank" rel="noopener">GitHub</a>
       </div>
+    </div>
+    <div class="showcase-icon">
+      <div class="si-inner"><img src="/assets/d&d.png" alt="Devices &amp; Dragons"></div>
     </div>
   </div>
 
