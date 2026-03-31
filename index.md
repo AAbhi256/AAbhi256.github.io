@@ -7,14 +7,14 @@ title: About
 <style>
   .logo-crop {
     overflow: hidden;
-    height: 80px;
+    height: 92px;
     margin-bottom: 0.5rem;
     max-width: 100%;
   }
   .logo-crop img {
     width: 700px;
-    margin-top: -310px;
-    margin-left: -75px;
+    margin-top: -302px;
+    margin-left: -82px;
   }
   .cv-embed {
     width: 100%;
