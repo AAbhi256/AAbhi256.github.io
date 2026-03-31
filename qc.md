@@ -78,7 +78,7 @@ title: Quantum Computing
 
 </div>
 
-<div class="section-header">My Class Notes &amp; Presentations</div>
+<div class="section-header">My Class Notes, Projects &amp; Presentations</div>
 
 <div class="course-block">
   <div class="course-title">Math 595: Representation-Theoretic Methods in Quantum Information Theory (Fall 2025)</div>

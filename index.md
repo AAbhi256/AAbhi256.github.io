@@ -9,11 +9,19 @@ title: About
     overflow: hidden;
     height: 80px;
     margin-bottom: 0.5rem;
+    max-width: 100%;
   }
   .logo-crop img {
-    width: 700px;
-    margin-top: -310px;
-    margin-left: -75px;
+    width: min(700px, 190vw);
+    margin-top: min(-310px, -44vw);
+    margin-left: min(-75px, -10vw);
+  }
+  .cv-embed {
+    width: 100%;
+    max-width: 100%;
+    height: 800px;
+    border: none;
+    display: block;
   }
 </style>
 
@@ -27,6 +35,4 @@ title: About
   Download CV (PDF)
 </a>
 
-<iframe src="https://aabhi256.github.io/Awesome-PhD-CV/research-cv/cv.pdf" 
-  width="100%" height="800px" style="border: none;">
-</iframe>
+<iframe class="cv-embed" src="https://aabhi256.github.io/Awesome-PhD-CV/research-cv/cv.pdf"></iframe>
