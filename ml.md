@@ -61,3 +61,14 @@ title: Machine Learning
   </a>
 
 </div>
+
+<div class="section-header">Miscellaneous</div>
+
+<div class="writeup-grid">
+
+  <a class="writeup-card" href="/ml/ethics-in-ai">
+    <div class="wc-title">Ethics in AI</div>
+    <div class="wc-desc"></div>
+  </a>
+
+</div>
