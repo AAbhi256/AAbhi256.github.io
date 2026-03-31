@@ -35,6 +35,54 @@ title: Game Dev/XR
   .writeup-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.10); border-color: #aaa; }
   .writeup-card .wc-title { font-weight: 600; margin-bottom: 0.4rem; }
   .writeup-card .wc-desc { font-size: 0.875rem; color: #555; line-height: 1.5; }
+
+  .showcase-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; }
+  .showcase-item { display: flex; flex-direction: column; gap: 0.75rem; }
+  .showcase-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 */
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+  }
+  .showcase-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .showcase-icon {
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background: #f9f9f9;
+  }
+  .showcase-icon .si-inner {
+    position: absolute;
+    inset: 0;
+  }
+  .showcase-icon .si-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .showcase-meta { display: flex; flex-direction: column; gap: 0.3rem; }
+  .showcase-title { font-weight: 600; font-size: 1rem; }
+  .showcase-links { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .showcase-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .showcase-link:hover { border-color: #aaa; box-shadow: 0 1px 6px rgba(0,0,0,0.08); }
 </style>
 
 # Game Dev/XR
@@ -59,5 +107,38 @@ title: Game Dev/XR
     <div class="wc-title">Why XR</div>
     <div class="wc-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint.</div>
   </a>
+
+</div>
+
+<div class="section-header">Showcase</div>
+
+<div class="showcase-grid">
+
+  <!-- <div class="showcase-item">
+    <div class="showcase-video">
+      <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="showcase-meta">
+      <div class="showcase-title">Game Title</div>
+      <div class="showcase-links">
+        <a class="showcase-link" href="#" target="_blank" rel="noopener">itch.io</a>
+        <a class="showcase-link" href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="showcase-item">
+    <div class="showcase-icon">
+      <div class="si-inner"><img src="/assets/d&d.png" alt="Devices &amp; Dragons"></div>
+    </div>
+    <div class="showcase-meta">
+      <div class="showcase-title">Devices &amp; Dragons</div>
+      <div class="showcase-links">
+        <a class="showcase-link" href="https://trickster-forge.itch.io/devices-and-dragons" target="_blank" rel="noopener">itch.io</a>
+        <a class="showcase-link" href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
 
 </div>
