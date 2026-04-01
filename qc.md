@@ -65,6 +65,11 @@ title: Quantum Computing
     <div class="wc-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
   </a>
 
+  <a class="writeup-card" href="/qc/on-oratomic">
+    <div class="wc-title">On Oratomic</div>
+    <div class="wc-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  </a>
+
 </div>
 
 <div class="section-header">TCS</div>
