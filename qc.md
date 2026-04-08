@@ -66,8 +66,8 @@ title: Quantum Computing
   </a>
 
   <a class="writeup-card" href="/qc/on-oratomic">
-    <div class="wc-title">On Oratomic</div>
-    <div class="wc-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    <div class="wc-title">Shor’s algorithm is possible with as few as 10,000 reconfigurable atomic qubits</div>
+    <div class="wc-desc">Led by a team of heavy hitters, Oratomic is a startup that claims fault-tolerant quantum computing is within reach. Here are my thoughts on their initial white paper that caused quite the stir in the community.</div>
   </a>
 
 </div>
